@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="es-MX" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Taquería El Fogón · Tacos al pastor y al carbón</title>
+  <meta name="description" content="Tacos al pastor de trompo, suadero, birria y salsas de molcajete. Pide por WhatsApp. Abierto de noche en la Col. Centro." />
+  <meta name="theme-color" content="#120d0a" />
+  <meta property="og:title" content="Taquería El Fogón" />
+  <meta property="og:description" content="Tacos al pastor de trompo y salsas de molcajete. Pide por WhatsApp." />
+  <meta property="og:image" content="assets/img/hero.webp" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%A5%3C/text%3E%3C/svg%3E" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="assets/img/hero.webp" />
+  <link rel="stylesheet" href="styles.css?v=20261110" />
+
+  <script defer src="lib/manifest.js?v=20261110"></script>
+  <script defer src="main.js?v=20261110"></script>
+</head>
+<body>
+
+  <!-- Splash (se oculta solo a los 4.5 s aunque falle el JS) -->
+  <div class="splash" data-splash aria-hidden="true">
+    <div class="splash-inner">
+      <span class="splash-flame"></span>
+      <span class="splash-word">El Fogón</span>
+    </div>
+  </div>
+
+  <!-- Navegación -->
+  <header class="nav" data-nav>
+    <a class="nav-logo" href="#inicio" aria-label="Taquería El Fogón, inicio">
+      <span class="logo-mark" aria-hidden="true"></span>
+      <span>El Fogón</span>
+    </a>
+    <nav class="nav-links" id="menu-nav" aria-label="Secciones">
+      <a href="#menu">Menú</a>
+      <a href="#casa">La casa</a>
+      <a href="#horarios">Horarios</a>
+      <a href="#ubicacion">Ubicación</a>
+    </nav>
+    <a class="btn btn-wa btn-sm nav-cta" href="https://wa.me/5215512345678?text=Hola%20El%20Fog%C3%B3n%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" data-wa>
+      <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>
+      <span>Pedir</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-nav" data-nav-toggle>
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg" data-parallax>
+        <img src="assets/img/hero.webp" alt="Taquero cortando carne al pastor del trompo" width="1024" height="798" fetchpriority="high" />
+      </div>
+      <div class="hero-tint"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="embers" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+      <div class="hero-grain" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <p class="hero-status" data-status>
+          <span class="dot"></span><span data-status-text>Abrimos todas las noches menos martes</span>
+        </p>
+        <h1 class="hero-title">
+          <span class="line"><span>Tacos al trompo,</span></span>
+          <span class="line"><span><em>hechos a fuego</em></span></span>
+          <span class="line"><span>lento.</span></span>
+        </h1>
+        <p class="hero-sub">Pastor marinado 24 horas, tortilla recién salida del comal y cuatro salsas de molcajete. Escríbenos y te lo tenemos listo.</p>
+        <div class="hero-actions">
+          <a class="btn btn-wa btn-lg" href="https://wa.me/5215512345678?text=Hola%20El%20Fog%C3%B3n%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" data-wa data-magnetic>
+            <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>
+            Pedir por WhatsApp
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#menu">Ver el menú</a>
+        </div>
+        <ul class="hero-facts">
+          <li><strong data-count-to="24">24</strong><span>horas de marinado</span></li>
+          <li><strong data-count-to="4">4</strong><span>salsas del día</span></li>
+          <li><strong>$22</strong><span>el taco al pastor</span></li>
+        </ul>
+      </div>
+      <a class="hero-scroll" href="#menu" aria-label="Bajar al menú"><span></span></a>
+    </section>
+
+    <!-- MARQUESINA -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Al pastor</span><b>✦</b><span>Suadero</span><b>✦</b><span>Birria con consomé</span><b>✦</b><span>Campechanos</span><b>✦</b><span>Gringas</span><b>✦</b><span>Salsa macha</span><b>✦</b><span>Agua de horchata</span><b>✦</b>
+        <span>Al pastor</span><b>✦</b><span>Suadero</span><b>✦</b><span>Birria con consomé</span><b>✦</b><span>Campechanos</span><b>✦</b><span>Gringas</span><b>✦</b><span>Salsa macha</span><b>✦</b><span>Agua de horchata</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- MENÚ -->
+    <section class="section menu" id="menu">
+      <div class="section-head reveal">
+        <p class="kicker">01 — El menú</p>
+        <h2 class="section-title">Lo que sale <em>del fogón</em></h2>
+        <p class="section-lead">Toca <strong>+</strong> en lo que se te antoje y te armamos el mensaje de WhatsApp con tu pedido. Precios en pesos mexicanos.</p>
+      </div>
+
+      <div class="menu-feature">
+        <article class="dish-card reveal" data-tilt>
+          <figure><img src="assets/img/pastor.webp" alt="Orden de tacos al pastor con cebolla y cilantro" loading="lazy" width="1023" height="687" /></figure>
+          <div class="dish-card-body">
+            <span class="tag">La de la casa</span>
+            <h3>Al pastor</h3>
+            <p>Del trompo directo a la tortilla, con su rebanada de piña.</p>
+          </div>
+        </article>
+        <article class="dish-card reveal" data-tilt>
+          <figure><img src="assets/img/birria.webp" alt="Tacos de birria con frijoles y rábano" loading="lazy" width="1024" height="768" /></figure>
+          <div class="dish-card-body">
+            <span class="tag">Fin de semana</span>
+            <h3>Birria</h3>
+            <p>Res en adobo de chiles secos, con su consomé para remojar.</p>
+          </div>
+        </article>
+        <article class="dish-card reveal" data-tilt>
+          <figure><img src="assets/img/quesadillas.webp" alt="Quesadillas con salsa roja y carne asada" loading="lazy" width="1024" height="680" /></figure>
+          <div class="dish-card-body">
+            <span class="tag">Con queso</span>
+            <h3>Gringas</h3>
+            <p>Tortilla de harina, queso fundido y pastor. Sin prisa.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="menu-board">
+        <div class="menu-col reveal">
+          <h3 class="menu-cat">Tacos <small>tortilla de maíz</small></h3>
+          <ul class="menu-list">
+            <li class="menu-item" data-item="Taco al pastor" data-price="22">
+              <div class="mi-text"><span class="mi-name">Al pastor</span><span class="mi-desc">Cerdo marinado, piña, cebolla y cilantro</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$22</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Taco de suadero" data-price="24">
+              <div class="mi-text"><span class="mi-name">Suadero</span><span class="mi-desc">Confitado en su grasa, dorado en la plancha</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$24</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Taco campechano" data-price="26">
+              <div class="mi-text"><span class="mi-name">Campechano</span><span class="mi-desc">Suadero con longaniza y chicharrón</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$26</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Taco de bistec" data-price="24">
+              <div class="mi-text"><span class="mi-name">Bistec</span><span class="mi-desc">Res a la plancha con cebolla asada</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$24</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Taco de birria con consomé" data-price="32">
+              <div class="mi-text"><span class="mi-name">Birria con consomé</span><span class="mi-desc">Viernes a domingo, hasta agotar</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$32</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu-col reveal">
+          <h3 class="menu-cat">Especiales <small>para compartir</small></h3>
+          <ul class="menu-list">
+            <li class="menu-item" data-item="Gringa de pastor" data-price="65">
+              <div class="mi-text"><span class="mi-name">Gringa de pastor</span><span class="mi-desc">Harina, queso Oaxaca y pastor</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$65</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Quesadilla" data-price="45">
+              <div class="mi-text"><span class="mi-name">Quesadilla</span><span class="mi-desc">Maíz a mano, queso y el guisado que elijas</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$45</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Costra de queso" data-price="42">
+              <div class="mi-text"><span class="mi-name">Costra de queso</span><span class="mi-desc">Queso dorado en la plancha como tortilla</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$42</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Orden de 5 al pastor" data-price="100">
+              <div class="mi-text"><span class="mi-name">Orden de 5 al pastor</span><span class="mi-desc">Con cebollitas asadas y nopal</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$100</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+          </ul>
+
+          <h3 class="menu-cat">Bebidas</h3>
+          <ul class="menu-list">
+            <li class="menu-item" data-item="Agua de horchata (1 L)" data-price="35">
+              <div class="mi-text"><span class="mi-name">Horchata o jamaica</span><span class="mi-desc">Agua fresca de la casa, 1 litro</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$35</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+            <li class="menu-item" data-item="Refresco de vidrio" data-price="28">
+              <div class="mi-text"><span class="mi-name">Refresco de vidrio</span><span class="mi-desc">Bien frío</span></div>
+              <span class="mi-dots"></span><span class="mi-price">$28</span>
+              <div class="mi-qty" data-qty hidden></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Resumen de pedido (lo activa el JS) -->
+      <div class="order-bar" data-order hidden>
+        <div class="order-info">
+          <span class="order-count" data-order-count>0 productos</span>
+          <span class="order-total" data-order-total>$0</span>
+        </div>
+        <button class="order-clear" type="button" data-order-clear>Vaciar</button>
+        <a class="btn btn-wa" href="https://wa.me/5215512345678" target="_blank" rel="noopener" data-order-send>Enviar pedido</a>
+      </div>
+    </section>
+
+    <!-- LA CASA -->
+    <section class="section casa" id="casa">
+      <div class="casa-media reveal">
+        <img src="assets/img/trompo.webp" alt="Trompo de carne al pastor girando frente al fuego" loading="lazy" width="556" height="1024" />
+        <span class="casa-stamp" aria-hidden="true">
+          <svg viewBox="0 0 120 120"><defs><path id="circ" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0" /></defs><text><textPath href="#circ">· Trompo encendido desde las 5 pm · Hecho a fuego lento </textPath></text></svg>
+        </span>
+      </div>
+      <div class="casa-text">
+        <p class="kicker reveal">02 — La casa</p>
+        <h2 class="section-title reveal">Un trompo, un comal <em>y una cuadra de vecinos</em></h2>
+        <p class="reveal">Empezamos con un puesto de lámina en la esquina. Hoy tenemos seis mesas y la misma receta de adobo: achiote, chile guajillo, naranja y un poco de paciencia.</p>
+        <ol class="pillars">
+          <li class="reveal"><span>01</span><div><h3>Tortilla a mano</h3><p>Nixtamal del día, prensada al momento y directo al comal.</p></div></li>
+          <li class="reveal"><span>02</span><div><h3>Salsas de molcajete</h3><p>Verde cruda, roja de árbol, macha y una de temporada.</p></div></li>
+          <li class="reveal"><span>03</span><div><h3>Para llevar o aquí</h3><p>Mándanos tu pedido por WhatsApp y pasas por él sin hacer fila.</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="gallery" aria-label="Fotos de la taquería">
+      <div class="gallery-track" data-drag>
+        <figure class="g-item g-wide"><img src="assets/img/tacos.webp" alt="Tacos al pastor con cilantro y cebolla" loading="lazy" width="1024" height="768" /></figure>
+        <figure class="g-item"><img src="assets/img/agua.webp" alt="Vaso de agua fresca con popote" loading="lazy" width="768" height="1024" /></figure>
+        <figure class="g-item g-wide"><img src="assets/img/salsas.webp" alt="Tres salsas verdes en tazones" loading="lazy" width="1024" height="765" /></figure>
+        <figure class="g-item g-wide"><img src="assets/img/ingredientes.webp" alt="Jitomate, chile y cebolla picados" loading="lazy" width="1024" height="526" /></figure>
+      </div>
+    </section>
+
+    <!-- HORARIOS -->
+    <section class="section horarios" id="horarios">
+      <div class="section-head reveal">
+        <p class="kicker">03 — Horarios</p>
+        <h2 class="section-title">Abrimos <em>cuando cae el sol</em></h2>
+      </div>
+      <div class="hours-wrap">
+        <ul class="hours reveal" data-hours>
+          <li data-day="1"><span>Lunes</span><span>6:00 pm – 1:00 am</span></li>
+          <li data-day="2" class="is-closed"><span>Martes</span><span>Descansamos</span></li>
+          <li data-day="3"><span>Miércoles</span><span>6:00 pm – 1:00 am</span></li>
+          <li data-day="4"><span>Jueves</span><span>6:00 pm – 1:00 am</span></li>
+          <li data-day="5"><span>Viernes</span><span>6:00 pm – 3:00 am</span></li>
+          <li data-day="6"><span>Sábado</span><span>6:00 pm – 3:00 am</span></li>
+          <li data-day="0"><span>Domingo</span><span>2:00 pm – 11:00 pm</span></li>
+        </ul>
+        <aside class="hours-note reveal">
+          <p class="hours-now" data-status-big>Revisa el horario de hoy</p>
+          <p>Los pedidos por WhatsApp se reciben desde una hora antes de abrir. Te avisamos cuando estén listos.</p>
+          <a class="btn btn-wa" href="https://wa.me/5215512345678?text=Hola%20El%20Fog%C3%B3n%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" data-wa>Apartar mi pedido</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section class="section ubicacion" id="ubicacion">
+      <div class="ubi-info reveal">
+        <p class="kicker">04 — Ubicación</p>
+        <h2 class="section-title">En la esquina <em>del humo rico</em></h2>
+        <address>
+          Av. Juárez 128, esquina con Revillagigedo<br />
+          Col. Centro, Ciudad de México
+        </address>
+        <ul class="contact">
+          <li><span>WhatsApp</span><a href="https://wa.me/5215512345678" target="_blank" rel="noopener" data-wa-plain>55 1234 5678</a></li>
+          <li><span>Correo</span><a href="mailto:hola@taqueriaelfogon.mx">hola@taqueriaelfogon.mx</a></li>
+          <li><span>Pago</span><span>Efectivo, tarjeta y transferencia</span></li>
+        </ul>
+        <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=Av.+Ju%C3%A1rez+128+Centro+Ciudad+de+M%C3%A9xico" target="_blank" rel="noopener">Cómo llegar ↗</a>
+      </div>
+      <div class="ubi-map reveal">
+        <iframe title="Mapa de Taquería El Fogón" src="https://maps.google.com/maps?q=Av.%20Ju%C3%A1rez%20128%2C%20Centro%2C%20Ciudad%20de%20M%C3%A9xico&amp;z=16&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="final-cta">
+      <div class="final-glow" aria-hidden="true"></div>
+      <p class="kicker reveal">¿Se te antojó?</p>
+      <h2 class="final-title reveal">Escríbenos y <em>prendemos el trompo</em>.</h2>
+      <a class="btn btn-wa btn-xl reveal" href="https://wa.me/5215512345678?text=Hola%20El%20Fog%C3%B3n%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" data-wa data-magnetic>
+        <svg class="wa-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>
+        Pedir por WhatsApp
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a class="nav-logo" href="#inicio"><span class="logo-mark" aria-hidden="true"></span><span>El Fogón</span></a>
+      <p>Av. Juárez 128, Col. Centro, CDMX · <a href="mailto:hola@taqueriaelfogon.mx">hola@taqueriaelfogon.mx</a></p>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-credit">Página creada por <a href="https://webmaker.com" target="_blank" rel="noopener">webmaker.com</a></p>
+      <p><a href="creditos.html">Créditos fotográficos</a> · © <span data-year>2026</span> Taquería El Fogón</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a class="wa-float" href="https://wa.me/5215512345678?text=Hola%20El%20Fog%C3%B3n%2C%20quiero%20hacer%20un%20pedido" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp" data-wa data-wa-float>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3z"/></svg>
+  </a>
+</body>
+</html>
