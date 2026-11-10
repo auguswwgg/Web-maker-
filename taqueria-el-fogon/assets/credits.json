@@ -1,0 +1,110 @@
+{
+  "hero": {
+    "id": "hero",
+    "src": "assets/img/hero.webp",
+    "title": "Tacos al Pastor Maker",
+    "creator": "Ari Helminen",
+    "creator_url": "https://www.flickr.com/photos/36093266@N06",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/36093266@N06/4464404558",
+    "source": "flickr"
+  },
+  "pastor": {
+    "id": "pastor",
+    "src": "assets/img/pastor.webp",
+    "title": "Tacos al Pastor",
+    "creator": "Ari Helminen",
+    "creator_url": "https://www.flickr.com/photos/36093266@N06",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/36093266@N06/4401140214",
+    "source": "flickr"
+  },
+  "trompo": {
+    "id": "trompo",
+    "src": "assets/img/trompo.webp",
+    "title": "Trompo de carne, de tacos al pastor",
+    "creator": "LALO VAZQUEZ",
+    "creator_url": "https://www.flickr.com/photos/30993853@N06",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/30993853@N06/5693222433",
+    "source": "flickr"
+  },
+  "salsas": {
+    "id": "salsas",
+    "src": "assets/img/salsas.webp",
+    "title": "Salsas Mexicanas",
+    "creator": "Distrito Médico Monterrey",
+    "creator_url": "https://www.flickr.com/photos/7113920@N05",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/7113920@N05/24667851511",
+    "source": "flickr"
+  },
+  "quesadillas": {
+    "id": "quesadillas",
+    "src": "assets/img/quesadillas.webp",
+    "title": "Quesadillas with Pollo Asado",
+    "creator": "Mike Saechang",
+    "creator_url": "https://www.flickr.com/photos/7390466@N06",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/7390466@N06/7205464648",
+    "source": "flickr"
+  },
+  "birria": {
+    "id": "birria",
+    "src": "assets/img/birria.webp",
+    "title": "Tacos de birria estilo Tecate",
+    "creator": "marthax",
+    "creator_url": "https://www.flickr.com/photos/58067336@N00",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/58067336@N00/18089489288",
+    "source": "flickr"
+  },
+  "agua": {
+    "id": "agua",
+    "src": "assets/img/agua.webp",
+    "title": "Agua de Horchata",
+    "creator": "zerethv",
+    "creator_url": "https://www.flickr.com/photos/52793838@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/52793838@N00/1767567930",
+    "source": "flickr"
+  },
+  "tacos": {
+    "id": "tacos",
+    "src": "assets/img/tacos.webp",
+    "title": "Tacos Al Pastor",
+    "creator": "objectfox",
+    "creator_url": "https://www.flickr.com/photos/44124372247@N01",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/44124372247@N01/750482147",
+    "source": "flickr"
+  },
+  "ingredientes": {
+    "id": "ingredientes",
+    "src": "assets/img/ingredientes.webp",
+    "title": "Salsa mexicana",
+    "creator": "Armando Maynez",
+    "creator_url": "https://www.flickr.com/photos/91148289@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/91148289@N00/3943164689",
+    "source": "flickr"
+  }
+}
